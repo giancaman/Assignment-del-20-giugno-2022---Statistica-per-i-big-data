@@ -27,7 +27,7 @@ L’assignment consta dei seguenti passi:
 
 ## Parte 2. Modellazione con Python: KMeans Clustering 
 
-1. Leggere il dataset "definitivo" (*coffe.csv*) da `data-modelling`.
+1. Leggere il dataset "definitivo" (*coffe.csv*) da *data-modelling*.
 2. Usando *matplotlib* o *seaborn*, esplorare le relazioni tra le variabili (ad esempio usando un *pairplot*). Includete i grafici più significativi e commentateli brevemente.
 3. Fittate un modello *KMeans*, avendo cura di:
     a. Scegliere le variabili da includere nell'algoritmo. Ad esempio, dai plot potreste aver trovato che alcune variabili siano più o meno importanti e quindi debbano essere escluse. Allo stesso modo, se una variabile ha categorie con una frequenza troppo bassa, potete evitare di includerla nell'algoritmo. In ogni caso, giustificate la vostra scelta. Potete fare riferimento al notebook *raw_data_processing.ipynb* per ispezionare le frequenze.
@@ -39,9 +39,9 @@ L’assignment consta dei seguenti passi:
 ## Parte 3. Modellazione in R: Regressioni Logistiche
 
 Per la parte di R, potete consegnare sia uno script (un file in .R) o un notebook (.Rmd) (si veda, per esempio, https://bookdown.org/yihui/rmarkdown/notebook.html).
-1.	Leggere il dataset “definitivo” da data-modelling. Nota bene: escludere la variabile total_cup_points!
+1.	Leggere il dataset “definitivo” (*coffe.csv*) da *data-modelling*. Nota bene: escludere la variabile *total_cup_points*.
 2.	Separare il dataset in train e test set.
-3.	Fittare una regressione logistica binomiale, usando come variabile dipendente high_quality. 
+3.	Fittare una regressione logistica binomiale, usando come variabile dipendente *high_quality*. 
 Provare più di un modello, ad esempio includendo diverse variabili e valutando con le diagnostiche fornite dal software ($R^2$, F, AIC, ecc.).
 
 
