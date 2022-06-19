@@ -47,7 +47,7 @@ Provare più di un modello, ad esempio includendo diverse variabili e valutando 
 
 ## Modalità  di consegna
 
-Salvare i notebook, i file R, e il .csv dei dati manipolati in una zip da inviare per email a luca.baggi@unimi.it e in CC a giancarlo.manzi@unimi.it entro lunedì 27 giugno 2022.
+Salvare i notebook, i file R, e il .csv dei dati manipolati in una zip da inviare per email a luca.baggi@unimi.it e in CC a giancarlo.manzi@unimi.it entro lunedì **27 giugno 2022**.
 
 ## Criteri di valutazione
 
