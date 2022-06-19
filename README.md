@@ -8,7 +8,7 @@ L'assignment si divide in tre parti:
 
 Per la parte in Python ciascuna parte deve essere eseguita su un notebook separato. Usate pure Colab (colab.research.google.com). 
 Abbiate cura di specificare quale versione di Python state usando (eseguendo il comando !python --version in una cella). 
-Il punteggio massimo attribuibile è di 6 punti.
+Il punteggio massimo attribuibile è di 6 punti. Il lavoro deve essere svolto preferibilmente in maniera individuale. Se si vuole lavorare in gruppi, il punteggio finale sarà suddiviso proporzionalmente alla numerosità del gruppo. Si effettueranno controlli a campione sull'originalità del codice.
 
 ## Parte 1. Manipolazione dei dati con Python
 
