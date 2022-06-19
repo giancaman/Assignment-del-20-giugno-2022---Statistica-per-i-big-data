@@ -17,13 +17,13 @@ I dati forniti in input (*coffee_beans.csv* e *coffee_ratings.csv*) dovranno res
 I dati che creerete, invece, in una nuova cartella di nome *data-modelling*.
 Nel notebook *raw_data_processing.ipynb* trovate delle informazioni sulle variabili contenute nel dataset originario (*raw-coffee_ratings.csv*) e il codice usato per trasformare i dati grezzi in quelli dell’assignment.
 L’assignment consta dei seguenti passi:
-1.	Usando pandas, leggete i due dataset *coffee_beans.csv* e *coffee_ratings.csv* contenuti in data-processed.
-2.	Unite le due tabelle usando una join/merge, usando la colonna coffee_id nelle due tabelle.
+1.	Usando pandas, leggete i due dataset *coffee_beans.csv* e *coffee_ratings.csv* contenuti in *data-processed*.
+2.	Unite le due tabelle usando una join/merge, usando la colonna *coffee_id* nelle due tabelle.
 3.	Ispezionare il numero di valori nulli per ogni variabile e decidere se e quali righe tenere o cancellare. Giustificare la propria scelta.
-4.	Creare una nuova colonna high_quality che abbia valore 1 se il total_cup_points è superiore a 82.5 e 0 se è inferiore.
-5.	Salvare il dataset ottenuto nella cartella data-modelling in formato .csv.
-6.	Raggruppare i dati per paese di provenienza e calcolare i valori minimi, massimi e la media di total_cup_points; infine, ordinarli in ordine decrescente in base alla media.
-7.	Usando matplotlib o seaborn, disegnare un grafico con i paesi sull’asse x e sull’asse y la media di total_cup_points. Individuare i punti che esprimono il valore minimo, media e varianza, e avere cura di aggiungere titoli e nomi degli assi.
+4.	Creare una nuova colonna *high_quality* che abbia valore 1 se la variabile *total_cup_points* è superiore a 82.5 e 0 se è inferiore.
+5.	Salvare il dataset ottenuto nella cartella *data-modelling* in con il nome *coffe.csv* in formato *.csv*.
+6.	Raggruppare i dati per paese di provenienza e calcolare i valori minimi, massimi e la media di *total_cup_points*; infine, ordinarli in ordine decrescente in base alla media.
+7.	Usando matplotlib o seaborn, disegnare un grafico con i paesi sull’asse x e sull’asse y la media di *total_cup_points*. Individuare i punti che esprimono il valore minimo, media e varianza, e avere cura di aggiungere titoli e nomi degli assi.
 
 ## Parte 2. Modellazione con Python: KMeans Clustering 
 
