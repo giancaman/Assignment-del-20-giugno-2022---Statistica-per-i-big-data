@@ -17,7 +17,7 @@ I dati forniti in input (*coffee_beans.csv* e *coffee_ratings.csv*) dovranno res
 I dati che creerete, invece, in una nuova cartella di nome *data-modelling*.
 Nel notebook *raw_data_processing.ipynb* trovate delle informazioni sulle variabili contenute nel dataset originario (*raw-coffee_ratings.csv*) e il codice usato per trasformare i dati grezzi in quelli dell’assignment.
 L’assignment consta dei seguenti passi:
-1.	Usando pandas, leggete i due dataset contenuti in data-processed.
+1.	Usando pandas, leggete i due dataset *coffee_beans.csv* e *coffee_ratings.csv* contenuti in data-processed.
 2.	Unite le due tabelle usando una join/merge, usando la colonna coffee_id nelle due tabelle.
 3.	Ispezionare il numero di valori nulli per ogni variabile e decidere se e quali righe tenere o cancellare. Giustificare la propria scelta.
 4.	Creare una nuova colonna high_quality che abbia valore 1 se il total_cup_points è superiore a 82.5 e 0 se è inferiore.
