@@ -12,10 +12,10 @@ Il punteggio massimo attribuibile è di 6 punti.
 
 ## Parte 1. Manipolazione dei dati con Python
 
-Per prima cosa, create una cartella per tutti i file del progetto. 
-I dati forniti in input dovranno restare nella cartella data-processed. 
-I dati che creerete, invece, in una nuova cartella di nome data-modelling.
-Nel notebook raw_data_processing.ipynb trovate delle informazioni sulle variabili contenute nel dataset e il codice usato per trasformare i dati grezzi in quelli dell’assignment.
+Per prima cosa, create una cartella depenominata #data-processed# per tutti i file del progetto. 
+I dati forniti in input (#coffee_beans.csv# e #coffee_ratings.csv#) dovranno restare nella cartella #data-processed. 
+I dati che creerete, invece, in una nuova cartella di nome #data-modelling.
+Nel notebook #raw_data_processing.ipynb# trovate delle informazioni sulle variabili contenute nel dataset originario (#raw-coffee_ratings.csv#) e il codice usato per trasformare i dati grezzi in quelli dell’assignment.
 L’assignment consta dei seguenti passi:
 1.	Usando pandas, leggete i due dataset contenuti in data-processed.
 2.	Unite le due tabelle usando una join/merge, usando la colonna coffee_id nelle due tabelle.
