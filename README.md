@@ -1,6 +1,6 @@
 # Istruzioni dell'assignment
 
-L'assignment si divide in tre parti:
+L'assignment (**che non è obbligatorio**) si suddivide in tre parti:
 
 1. Manipolazione dati
 2. Modellazione in Python
@@ -27,14 +27,14 @@ L’assignment consta dei seguenti passi:
 
 ## Parte 2. Modellazione con Python: KMeans Clustering 
 
-1. Leggere il dataset "definitivo" da `data-modelling`.
-2. Usando `matplotlib` o `seaborn`, esplorare le relazioni tra le variabili (ad esempio usando un pairplot). Includete i grafici piÃ¹ significativi e commentateli brevemente.
-3. Fittate un KMeans, avendo cura di:
-    1. Scegliere le variabili da includere nell'algoritmo. Ad esempio, dai plot potreste aver trovato che alcune variabili siano piÃ¹ o meno importanti e quindi debbano essere escluse. Allo stesso modo, se una variabile ha categorie con una frequenza troppo bassa, potete evitare di includerla nell'algoritmo. In ogni caso, giustificate la vostra scelta. Potete fare riferimento al notebook `raw_data_processing.ipynb` per ispezionare le frequenze.
-    1. Trasformare le variabili categoriche (cioÃš non numeriche) in dummies.
-    2. Normalizzare i dati.
-    3. Utilizzare almeno una metrica di errore tra quelle viste a lezione per identificare il numero ottimale di cluster. Giustificare brevemente la scelta.
-4. 4.	Disegnare uno o più scatterplot delle variabili suddivise per cluster.
+1. Leggere il dataset "definitivo" (*coffe.csv*) da `data-modelling`.
+2. Usando *matplotlib* o *seaborn*, esplorare le relazioni tra le variabili (ad esempio usando un *pairplot*). Includete i grafici più significativi e commentateli brevemente.
+3. Fittate un modello *KMeans*, avendo cura di:
+    a. Scegliere le variabili da includere nell'algoritmo. Ad esempio, dai plot potreste aver trovato che alcune variabili siano più o meno importanti e quindi debbano essere escluse. Allo stesso modo, se una variabile ha categorie con una frequenza troppo bassa, potete evitare di includerla nell'algoritmo. In ogni caso, giustificate la vostra scelta. Potete fare riferimento al notebook *raw_data_processing.ipynb* per ispezionare le frequenze.
+    b. Trasformare le variabili categoriche (cioè non numeriche) in *dummies*.
+    c. Normalizzare i dati.
+    d. Utilizzare almeno una metrica di errore tra quelle viste a lezione per identificare il numero ottimale di cluster. Giustificare brevemente la scelta.
+4. Disegnare uno o più scatterplot delle variabili suddivise per cluster.
 
 ## Parte 3. Modellazione in R: Regressioni Logistiche
 
@@ -50,7 +50,7 @@ Provare più di un modello, ad esempio includendo diverse variabili e valutando 
 Salvare i notebook, i file R, e il .csv dei dati manipolati in una zip da inviare per email a luca.baggi@unimi.it e in CC a giancarlo.manzi@unimi.it entro lunedì **27 giugno 2022**.
 
 ## Criteri di valutazione
-
+Cercare di svolgere quanto più lavoro possibile. L'assignment sembra pesante ma la valutazione terrà conto del vostro attuale livello di skill nella programmazione.
 I principali criteri di valutazione sono:
 •	Il codice deve poter essere eseguito da cima a fondo senza dare errori.
 •	Spiegare e commentare, anche brevemente, le cose che si fanno, alternando blocchi di codice a blocchi di testo.
