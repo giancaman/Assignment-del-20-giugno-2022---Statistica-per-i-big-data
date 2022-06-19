@@ -6,16 +6,16 @@ L'assignment si divide in tre parti:
 2. Modellazione in Python
 3. Modellazione in R
 
-Per la parte in Python ciascuna parte deve essere eseguita su un notebook separato. Usate pure Colab colab.research.google.com. 
+Per la parte in Python ciascuna parte deve essere eseguita su un notebook separato. Usate pure Colab (colab.research.google.com). 
 Abbiate cura di specificare quale versione di Python state usando (eseguendo il comando !python --version in una cella). 
 Il punteggio massimo attribuibile è di 6 punti.
 
 ## Parte 1. Manipolazione dei dati con Python
 
-Per prima cosa, create una cartella depenominata #data-processed# per tutti i file del progetto. 
-I dati forniti in input (#coffee_beans.csv# e #coffee_ratings.csv#) dovranno restare nella cartella #data-processed. 
-I dati che creerete, invece, in una nuova cartella di nome #data-modelling.
-Nel notebook #raw_data_processing.ipynb# trovate delle informazioni sulle variabili contenute nel dataset originario (#raw-coffee_ratings.csv#) e il codice usato per trasformare i dati grezzi in quelli dell’assignment.
+Per prima cosa, create una cartella denominata *data-processed* per tutti i file del progetto. 
+I dati forniti in input (*coffee_beans.csv* e *coffee_ratings.csv*) dovranno restare nella cartella *data-processed*. 
+I dati che creerete, invece, in una nuova cartella di nome *data-modelling*.
+Nel notebook *raw_data_processing.ipynb* trovate delle informazioni sulle variabili contenute nel dataset originario (*raw-coffee_ratings.csv*) e il codice usato per trasformare i dati grezzi in quelli dell’assignment.
 L’assignment consta dei seguenti passi:
 1.	Usando pandas, leggete i due dataset contenuti in data-processed.
 2.	Unite le due tabelle usando una join/merge, usando la colonna coffee_id nelle due tabelle.
