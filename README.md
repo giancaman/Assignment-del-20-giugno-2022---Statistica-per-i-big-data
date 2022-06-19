@@ -15,8 +15,7 @@ Il punteggio massimo attribuibile è di 6 punti. Il lavoro deve essere svolto pr
 
 Scaricare i file, andate sul menù a tendina sotto il bottone `Code` verde e selezionate `Download ZIP`.
 
-![download-zip](.assets/download_materials.png)
-
+![Instructions to download](./assets/download_materials.png)
 
 ## Parte 1. Manipolazione dei dati con Python
 
