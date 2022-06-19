@@ -38,7 +38,7 @@ L’assignment consta dei seguenti passi:
 
 ## Parte 3. Modellazione in R: Regressioni Logistiche
 
-Per la parte di R, potete consegnare sia uno script (un file in .R) o un notebook (.Rmd) (vedi qui).
+Per la parte di R, potete consegnare sia uno script (un file in .R) o un notebook (.Rmd) (si veda, per esempio, [qui](https://pages.github.com/](https://bookdown.org/yihui/rmarkdown/notebook.html).
 1.	Leggere il dataset “definitivo” da data-modelling. Nota bene: escludere la variabile total_cup_points!
 2.	Separare il dataset in train e test set.
 3.	Fittare una regressione logistica binomiale, usando come variabile dipendente high_quality. 
